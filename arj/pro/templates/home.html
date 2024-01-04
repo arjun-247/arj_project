@@ -1,0 +1,523 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+   
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body>
+  <main>
+    <div class="marq">
+
+      <p>Enhanced performance and comfort with each step</p>
+      
+      
+    </div>
+    
+    <div class="nav-bar">
+
+      <span>
+        <img src="./" alt="" class="logo2">
+      </span>
+
+      <div class="center">
+
+        <span class="centeritem1"><a href="#" class="centeritem ">MEN</a></span>
+        <span class="centeritem2"><a href="#" class="centeritem ">WOMEN</a></span>
+        <span class="centeritem3"><a href="#" class="centeritem ">KIDS</a></span>
+        <span class="centeritem5"><a href="#" class="centeritem ">NEW</a></span>
+        <span class="centeritem7"><a href="#" class="centeritem " style="color: red;">SALE</a></span>
+
+      </div>
+
+      <div class="search">
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Search</button>
+        </form>
+
+        <div class="icons" name="WISHLIST"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="29px"
+            fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+          </svg></div>
+        <div class="icons" name="MY ACCOUNT"> <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="35px"
+            fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path
+              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z">
+            </path>
+          </svg></div>
+        <div class="icons" name="CART"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="29px"
+            fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+          </svg>
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+    <div class="carousel1">
+      <div class="crstxt">
+        <h1 style="font-weight: bold;">NEW IN SNEAKERS
+          </h1><h1>KICK IT UP A NOTCH</h1>
+      </div>
+      <div class="crsbg">
+        <span><img src="./images/adidas1.jpeg" alt=""></span>
+        <span><img src="./images/crsl-2.webp" alt=""></span>
+        <span><img src="./images/crsl1.jpeg" alt=""></span>
+      </div>
+
+    </div>
+
+    <div class="carousel2">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel2">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/crsl.webp" class="d-block w-100 " alt="..." style="height: 642px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white; font-weight: bolder; font-size: 3rem; font-style: italic;" >CLASSY & SASSY</h1>
+                      
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/crsl2.webp" class="d-block w-100 " alt="..." style="height: 642px;">
+            <div class="carousel-caption d-none d-md-block ">
+              <h1 style="color: white; font-weight: bolder;" class="txtcrs">NEW & TRENDING
+                </h1>
+                      <p style="font-size: 4rem; color: white;" class="txtcrs-p">LEVEL UP YOUR STYLE GAME</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/crsl3.webp" class="d-block w-100 " alt="..." style="height: 642px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style="color: white; font-weight: bolder; font-size: 3.7rem; transform: translate(25%,0);" >ELEVATE YOUR WORK WARDROBE</h1>
+                
+                      
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/crsl4.webp" class="d-block w-100 " alt="..." style="height: 642px;">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+   
+
+
+
+    <div class="prodhome-women d-flex">
+
+      <div id="womenhome1" class="carousel carousel-dark slide w-25">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/shoes/women/3-1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nike Air Max 270 SE</h5>
+              <p>MRP : ₹ 15 995.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/shoes/women/3-2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/shoes/women/3-3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#womenhome1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#womenhome1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <div id="womenhome2" class="carousel carousel-dark slide w-25">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./images/shoes/women/5-1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nike Pegasus 40 Premium</h5>
+            <p> MRP : ₹ 12 795.00</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/shoes/women/5-2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/shoes/women/5-3.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#womenhome2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#womenhome2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ 
+  <div id="womenhome3" class="carousel carousel-dark slide w-25">
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./images/shoes/women/2-1.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nike Air Max 97 Futura</h5>
+          <p>MRP : ₹ 17 495.00</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./images/shoes/women/2-2.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/shoes/women/2-3.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#womenhome3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#womenhome3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div id="womenhome4" class="carousel carousel-dark slide w-25">
+  <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./images/shoes/women/4-1.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Nike Air Max 1 '87 Premium</h5>
+        <p>MRP : ₹ 14 995.00</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/shoes/women/4-2.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/shoes/women/4-3.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p> -->
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#womenhome4" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#womenhome4" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+      
+    </div>
+    <div class="shopwomen">
+      <div class="txtwomen">
+        <p>Shop Women <br><button type="button"  class="btn btn-light "  style="height: 30px; width: 7rem; padding: 0; border-radius: 0;">Shop Now</button></p>
+      </div>
+      <img src="./images/btmbanner2.jpg" alt="">
+      
+    </div>
+
+    <div class="prodhome-men d-flex">
+      <div id="menhome1" class="carousel carousel-dark slide w-25">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/shoes/af-1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Nike Air Force 1 '07</h5>
+              <p>MRP : ₹ 7 495.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/shoes/af-2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/shoes/af-3.webp" class="d-block w-100" alt="...">
+
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#menhome1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menhome1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+      <div id="menhome2" class="carousel carousel-dark slide w-25">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/shoes/uptblk-1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nike Air More Uptempo '96
+                
+                </h5>
+              <p>
+                MRP : ₹ 15 995.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/shoes/uptblk-2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/shoes/uptblk-3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#menhome2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menhome2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div id="menhome3" class="carousel carousel-dark slide w-25">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/shoes/aj-1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Air Jordan 7 Retro SE</h5>
+              <p>MRP : ₹ 19 295.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/shoes/aj-2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/shoes/aj-3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#menhome3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menhome3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div id="menhome4" class="carousel carousel-dark slide w-25">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/shoes/gl-1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nike Air Max Plus III</h5>
+              <p>MRP : ₹ 17 495.00</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/shoes/gl-2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/shoes/gl-3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#menhome4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#menhome4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+    </div>
+    <div class="shopmen">
+      <div class="txtmen">
+        <p>Shop Men <br><button type="button" class="btn btn-light "  style="height: 30px; width: 7rem; padding: 0; border-radius: 0;">Shop Now</button></p>
+      </div>
+
+      <img src="./images/btmbanner.jpg" alt="">
+      <hr style="color: white;">
+    </div>
+    
+    <div class="bottom">
+      <div class="firstbottom">
+        <h4>Support</h4>
+        <a href="#">Contact</a><br>
+        <a href="#">Privacy Policy</a><br>
+        <a href="">Terms&Conditions</a>
+      </div>
+      
+      <div class="secbottom">
+        <h4>About</h4>
+        <a href="#">Company</a><br>
+        <a href="#">Store Finder</a>
+      </div>
+     
+    </div>
+    
+
+
+  </main>
+
+</body>
+
+</html>
